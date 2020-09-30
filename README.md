@@ -1,4 +1,4 @@
-# gsd_calculator
+# camera_calibrate_calculator
 
 ## Project setup
 ```
