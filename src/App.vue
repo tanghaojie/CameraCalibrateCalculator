@@ -552,7 +552,7 @@ export default {
     },
     djiCalibrateInputModalOK() {
       let calibrate = this.djiCalibrateValue
-      calibrate = calibrate.replaceAll('"', '')
+      calibrate = calibrate.replace(/"/g, '')
       let date_info = calibrate.split(';')
       let info = date_info[1]
       let infos = info.split(',')
